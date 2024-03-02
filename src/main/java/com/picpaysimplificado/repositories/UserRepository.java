@@ -11,6 +11,7 @@ public interface UserRepository extends JpaRepository<User, Long> {  //os parame
                                                         //o nome do metodo tem que seguir esse padrao com o nome do atributo
                                                         //desta forma o JPA consegue internamente fazer o select e trazer os dados.
 
-    Optional<User> findUserById(Long id); //alteracao de comentario
+    Optional<User> findUserById(Long id);   //alteracao de comentario
+                                            //inserindo comentarios para testar o git
 
 }
